@@ -38,8 +38,8 @@ Ce projet est une implémentation d'un jeu Tetris en Python utilisant la bibliot
 
 ## Lancer le projet
 
-Vous trouverez directement un .exe dans le dossier ./dist pour lancer le projet.
-Lancez le projet avec la commande suivante dans le répertoir racine du projet :
+Vous trouverez directement main.exe dans le dossier ./dist pour lancer le projet.
+Si non, dans le terminal à la racine, lancez le projet avec la commande suivante (une fois les étapes d'insallation réaliser) :
 ```sh
 python -m tetris.main
 ```
@@ -50,12 +50,15 @@ La structure du projet est organisée de manière modulaire :
 
 ```sh
 TETRISTKINTER/
+├── dist/               
+│   └── main.exe         # Fichier exécutable pour le Tetris
 ├── tetris/                # Code source du jeu
 │   ├── __init__.py
 │   ├── main.py          # Point d'entrée du jeu
 │   ├── game.py          # Logique du jeu (grilles, pièces, gestion des règles)
 │   ├── gui.py           # Interface graphique avec Tkinter (création de la fenêtre, canvas, gestion des widgets)
 │   └── ai.py            # Logique de l'IA (décision de placement, stratégie simple)
+├── .gitignore
 ├── README.md            # Instructions pour lancer le projet
 ├── PROMPTS.md           # Liste des prompts utilisés pour réaliser le projet
 └── requirements.txt     # Liste des dépendances
