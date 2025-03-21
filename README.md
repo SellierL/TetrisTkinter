@@ -56,8 +56,6 @@ TETRISTKINTER/
 │   ├── game.py          # Logique du jeu (grilles, pièces, gestion des règles)
 │   ├── gui.py           # Interface graphique avec Tkinter (création de la fenêtre, canvas, gestion des widgets)
 │   └── ai.py            # Logique de l'IA (décision de placement, stratégie simple)
-├── tests/               # Tests unitaires ou d'intégration
-│   └── test_game.py
 ├── README.md            # Instructions pour lancer le projet
 ├── PROMPTS.md           # Liste des prompts utilisés pour réaliser le projet
 └── requirements.txt     # Liste des dépendances
