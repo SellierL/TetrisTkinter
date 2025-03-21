@@ -16,7 +16,7 @@ Ce projet est une implémentation d'un jeu Tetris en Python utilisant la bibliot
 - Tkinter (inclus avec Python dans la plupart des distributions)
 - [Virtualenv](https://docs.python.org/fr/3/library/venv.html) pour créer un environnement virtuel
 
-## Installation
+## Installation (2 & 3 non necessaire si vous choisisez le .exe)
 
 1. **Cloner le dépôt**
 
@@ -38,12 +38,11 @@ Ce projet est une implémentation d'un jeu Tetris en Python utilisant la bibliot
 
 ## Lancer le projet
 
+Vous trouverez directement un .exe dans le dossier ./dist pour lancer le projet.
 Lancez le projet avec la commande suivante dans le répertoir racine du projet :
 ```sh
 python -m tetris.main
 ```
-
-/!\ ajouter le lancement avec éxécutable /!\
 
 ## Structure du Projet
 

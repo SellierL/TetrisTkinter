@@ -51,7 +51,21 @@ Et j'aimerais en profiter pour ajouter l'affichage de la pièce suivant pour vé
 
 - il s'agit de la pièce en cours dans le canvas mais je ne vois pas la pièce suivante
 
-# Implémentation de la deuxième régle fun
+# Implémentation de la deuxième régle fun et de toutes les autres car implémentation une par une super long et compliqué
 _Tous les 1 000 points, les pièces tombent 20 % plus lentement pendant 10 secondes pour les deux joueurs_
 
 - ok on peut reprendre pour la deuxième règle fun, je n'ai fais que la première pour l'instant
+
+- tu saurais me donner directement le code pour toutes les régles et qu'elles fonctionnent correctement entre elles ?
+
+- la partie arc en ciel toutes les deux minutes pour que le jeux soit plus fun est assez agressif par rapport aux couleurs que j'ai choisi, je te partage ma palette pour les blocs, si tu pouvais adapter l'arc en ciel a cette palette pour garder une cohérence visuel !
+
+COLOR_PALETTE = ["#aed6f1","#d2b4de", "#f5b7b1", "#f9e79f", "#abebc6", "#c0392b", "#dc7633"]
+
+# Fin de partie
+
+- tu saurais me faire le code pour définir la fin de partie lorsque plus aucune piece ne peut rentrer dans le tableau
+
+- j'aimerais que le game over ne termine que la partie de celui qui ne peut plus jouer et ne bloque pas l'autre
+
+- ok super on pourrait faire le .exe du projet maintenant

@@ -20,6 +20,17 @@ def get_column_heights(grid, cols, rows):
                 break
     return heights
 
+def ai_move(game):
+    import random
+    # Logique très simple pour l'IA :
+    move = random.choice(["left", "right", "none"])
+    if move == "left":
+        game.move_piece(game.current_piece_ia, game.grid_ia, dx=-1)
+    elif move == "right":
+        game.move_piece(game.current_piece_ia, game.grid_ia, dx=1)
+    # La pièce descend toujours d'un cran
+    game.move_piece(game.current_piece_ia, game.grid_ia, dy=1)
+
 def count_holes(grid, cols, rows):
     holes = 0
     for j in range(cols):

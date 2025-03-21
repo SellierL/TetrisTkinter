@@ -1,2 +1,5 @@
 envTetris
 **/__pycache__/
+# Fichiers générés par PyInstaller
+build/
+*.spec
